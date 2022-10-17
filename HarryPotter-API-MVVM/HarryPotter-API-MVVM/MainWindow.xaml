@@ -5,12 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HarryPotter_API_MVVM" xmlns:views="clr-namespace:HarryPotter_API_MVVM.Views"
         mc:Ignorable="d"
-        Title="Harry Potter" Height="450" Width="800"
+        Title="Harry Potter" Height="900" Width="1600"
         FontSize="14"
-        Background="{StaticResource VeryDark}"
-        Foreground="{StaticResource Light}">
+        Background="{StaticResource Light}"
+        Foreground="{StaticResource DarkGreen}">
     <Grid Margin="20">
-        <views:CharactersView>
-        </views:CharactersView>
+        <Border  CornerRadius ="0" BorderThickness ="0">
+            <views:CharactersView>
+            </views:CharactersView>
+        </Border>
     </Grid>
 </Window>
