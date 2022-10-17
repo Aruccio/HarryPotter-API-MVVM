@@ -1,9 +1,23 @@
 ﻿<Application x:Class="HarryPotter_API_MVVM.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:HarryPotter_API_MVVM"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:HarryPotter_API_MVVM">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="Black" Color="#000000" />
+            <SolidColorBrush x:Key="White" Color="#FFFFFF" />
+            <SolidColorBrush x:Key="VeryDark" Color="#1B2430" />
+            <SolidColorBrush x:Key="Dark" Color="#51557E" />
+            <SolidColorBrush x:Key="Medium" Color="#816797" />
+            <SolidColorBrush x:Key="Light" Color="#D6D5A8" />
+            <Style TargetType="Button">
+                <Setter Property="Foreground" Value="{StaticResource Dark}" />
+                <Setter Property="Background" Value="{StaticResource Light}" />
+                <Setter Property="Padding" Value="15 5" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+                <Setter Property="HorizontalAlignment" Value="Center" />
+                <Setter Property="TextBlock.TextAlignment" Value="Center" />
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
