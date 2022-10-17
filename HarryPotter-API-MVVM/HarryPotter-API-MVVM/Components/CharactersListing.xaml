@@ -7,7 +7,7 @@
              mc:Ignorable="d"
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <Border BorderBrush="{StaticResource Dark}" BorderThickness="2"
+        <Border BorderBrush="{StaticResource Color1}" BorderThickness="2"
                 CornerRadius="10"
                 Margin="10 10 0 10">
             <ListView Padding="10">

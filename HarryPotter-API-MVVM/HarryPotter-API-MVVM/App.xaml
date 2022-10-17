@@ -6,19 +6,20 @@
         <ResourceDictionary>
             <SolidColorBrush x:Key="Black" Color="#000000" />
             <SolidColorBrush x:Key="White" Color="#FFFFFF" />
-            <SolidColorBrush x:Key="Dark" Color="#0D1F22" />
-            <SolidColorBrush x:Key="DarkGreen" Color="#265B4C" />
-            <SolidColorBrush x:Key="MediumGreen" Color="#3C8653" />
-            <SolidColorBrush x:Key="LightGreen" Color="#6F732F" />
-            <SolidColorBrush x:Key="Light" Color="#B38A58" />
+            <SolidColorBrush x:Key="Color1" Color="#143F6B" />
+            <SolidColorBrush x:Key="Color2" Color="#F55353" />
+            <SolidColorBrush x:Key="Color3" Color="#FEB139" />
+            <SolidColorBrush x:Key="Color4" Color="#F6F54D" />
             <Style TargetType="Button">
-                <Setter Property="Foreground" Value="{StaticResource Dark}" />
-                <Setter Property="Background" Value="{StaticResource MediumGreen}" />
+                <Setter Property="Foreground" Value="{StaticResource Color1}" />
+                <Setter Property="Background" Value="{StaticResource Color3}" />
                 <Setter Property="Padding" Value="15 5" />
                 <Setter Property="VerticalAlignment" Value="Center" />
                 <Setter Property="HorizontalAlignment" Value="Center" />
                 <Setter Property="TextBlock.TextAlignment" Value="Center" />
                 <Setter Property="Cursor" Value="Hand" />
+                <Setter Property="BorderBrush" Value="{StaticResource Color3}" />
+
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="Button">
@@ -37,13 +38,8 @@
                             <BeginStoryboard>
                                 <Storyboard>
                                     <ColorAnimation Storyboard.TargetProperty="Background.(SolidColorBrush.Color)"
-                                                    To="#265B4C" Duration="0:0:0.2" />
-                                </Storyboard>
-                            </BeginStoryboard>
-                            <BeginStoryboard>
-                                <Storyboard>
-                                    <ColorAnimation Storyboard.TargetProperty="Foreground.(SolidColorBrush.Color)"
-                                                    To="#6F732F" Duration="0:0:0.2" />
+                                                    To="#F55353" Duration="0:0:0.2" />
+                                    <!-- button background to color2-->
                                 </Storyboard>
                             </BeginStoryboard>
                         </Trigger.EnterActions>
@@ -51,13 +47,8 @@
                             <BeginStoryboard>
                                 <Storyboard>
                                     <ColorAnimation Storyboard.TargetProperty="Background.(SolidColorBrush.Color)"
-                                                    To="#3C8653" Duration="0:0:0.2" />
-                                </Storyboard>
-                            </BeginStoryboard>
-                            <BeginStoryboard>
-                                <Storyboard>
-                                    <ColorAnimation Storyboard.TargetProperty="Foreground.(SolidColorBrush.Color)"
-                                                    To="#6F732F" Duration="0:0:0.2" />
+                                                    To="#FEB139" Duration="0:0:0.2" />
+                                    <!-- color2 to button background -->
                                 </Storyboard>
                             </BeginStoryboard>
                         </Trigger.ExitActions>
@@ -66,8 +57,8 @@
             </Style>
             <Style TargetType="Border">
                 <Setter Property="CornerRadius" Value="10" />
-                <Setter Property="BorderBrush" Value="{StaticResource Dark}" />
-                <Setter Property="BorderThickness" Value="2" />
+                <Setter Property="BorderBrush" Value="{StaticResource Color3}" />
+                <Setter Property="BorderThickness" Value="4" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>

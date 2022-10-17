@@ -53,7 +53,7 @@ namespace HarryPotter_API_MVVM.Components {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HarryPotter-API-MVVM;V1.0.0.0;component/components/charactersdetails.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HarryPotter-API-MVVM;component/components/charactersdetails.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Components\CharactersDetails.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

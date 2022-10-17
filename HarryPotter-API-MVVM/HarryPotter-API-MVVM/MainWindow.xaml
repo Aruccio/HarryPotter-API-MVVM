@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Harry Potter" Height="900" Width="1600"
         FontSize="14"
-        Background="{StaticResource Light}"
-        Foreground="{StaticResource DarkGreen}">
+        Background="{StaticResource Color1}"
+        Foreground="{StaticResource Color4}">
     <Grid Margin="20">
-        <Border  CornerRadius ="0" BorderThickness ="0">
+        <Border CornerRadius ="0" BorderThickness ="0">
             <views:CharactersView>
             </views:CharactersView>
         </Border>
