@@ -3,6 +3,7 @@ using HarryPotter.Infrastructure.Model;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -10,22 +11,23 @@ using System.Threading.Tasks;
 
 namespace HarryPotter.MainApplication.Services
 {
-    public class CharacterService : ICharacterService
+    public class CharacterRepository : ICharacterRepository
     {
         private HttpClient _httpClient;
         private string _api = "https://legacy--api.herokuapp.com/api/v1";
         private string _apiAllCharacters = "/characters";
 
-        public CharacterService(HttpClient httpClient)
+        public CharacterRepository()
         {
-            _httpClient = httpClient;
+            _httpClient = new HttpClient();
+
         }
 
-        public async Task<ICollection<Character>> GetAllCharactersFromHogwart()
+        public async Task<ICollection<Character>> GetAllCharacters()
         {
             var response = await _httpClient.GetAsync($"{_api}{_apiAllCharacters}");
             string allCharacters = response.Content.ReadAsStringAsync().Result;
-            var allCharactersJson = JsonConvert.DeserializeObject<List<Character>>(allCharacters);
+            var allCharactersJson = JsonConvert.DeserializeObject<ICollection<Character>>(allCharacters);
 
             return allCharactersJson;
         }

@@ -1,12 +1,17 @@
-﻿<Window x:Class="HarryPotter.MainApplication.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HarryPotter.MainApplication"
+        xmlns:View="clr-namespace:HarryPotter.MainApplication.View" x:Class="HarryPotter.MainApplication.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="900" Width="1600"
+        Background="LightBlue">
     <Grid>
-
+        <View:CharacterListView
+            RenderTransformOrigin="0,0"
+            Margin="50,140,50,0" Height="700"
+            VerticalAlignment="Top" />
     </Grid>
 </Window>

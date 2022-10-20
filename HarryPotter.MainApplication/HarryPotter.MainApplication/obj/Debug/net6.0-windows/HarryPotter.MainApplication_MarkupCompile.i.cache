@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotter.MainApplication\HarryPotter.MainApplication\App.xaml
-11407045341
+2-1252815130
 
-71772637850
+92048893500
 1971960641763
-MainWindow.xaml;
+MainWindow.xaml;View\CharacterListView.xaml;
 
-False
+True
 
