@@ -12,5 +12,7 @@
         <viewmodel:CharacterListViewModel />
     </UserControl.DataContext>
     <Grid>
+        <DataGrid ItemsSource="{Binding Characters}">
+        </DataGrid>
     </Grid>
 </UserControl>

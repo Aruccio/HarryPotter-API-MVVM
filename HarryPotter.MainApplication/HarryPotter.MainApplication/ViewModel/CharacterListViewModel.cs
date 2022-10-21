@@ -13,7 +13,6 @@ namespace HarryPotter.MainApplication.ViewModel
 {
     public class CharacterListViewModel
     {
-        private HttpClient httpClient = new HttpClient();
         private ICharacterRepository _repository = new CharacterRepository();
 
         public CharacterListViewModel()

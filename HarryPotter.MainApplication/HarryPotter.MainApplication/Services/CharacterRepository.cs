@@ -14,7 +14,7 @@ namespace HarryPotter.MainApplication.Services
     public class CharacterRepository : ICharacterRepository
     {
         private HttpClient _httpClient;
-        private string _api = "https://legacy--api.herokuapp.com/api/v1";
+        private string _api = "https://hp-api.herokuapp.com/api";
         private string _apiAllCharacters = "/characters";
 
         public CharacterRepository()
