@@ -4,13 +4,17 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:HarryPotter.MainApplication.View"
+             xmlns:root ="clr-namespace:HarryPotter.MainApplication"
+             root:ViewModelLocator.AutoWireViewModel="True"
              xmlns:viewmodel="clr-namespace:HarryPotter.MainApplication.ViewModel"
              mc:Ignorable="d"
              d:DesignHeight="700" d:DesignWidth="1500"
-             Background="Bisque">
-    <UserControl.DataContext>
+             Background="Bisque"
+
+>
+    <!--<UserControl.DataContext>
         <viewmodel:CharacterListViewModel />
-    </UserControl.DataContext>
+    </UserControl.DataContext>-->
     <Grid>
         <DataGrid ItemsSource="{Binding Characters}">
         </DataGrid>

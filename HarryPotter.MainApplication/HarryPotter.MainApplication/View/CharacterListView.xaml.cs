@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HarryPotter.MainApplication.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace HarryPotter.MainApplication.View
         public CharacterListView()
         {
             InitializeComponent();
+            //DataContext = new CharacterListViewModel();
         }
     }
 }
