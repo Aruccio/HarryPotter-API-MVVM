@@ -29,3 +29,4 @@ D:\QPERIOR\HarryPotter-API-MVVM\HarryPotter.MainApplication\HarryPotter.MainAppl
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotter.MainApplication\HarryPotter.MainApplication\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotter.MainApplication\HarryPotter.MainApplication\obj\Debug\net6.0-windows\View\CharacterDetailsView.g.cs
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotter.MainApplication\HarryPotter.MainApplication\obj\Debug\net6.0-windows\View\CharacterDetailsView.baml
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotter.MainApplication\HarryPotter.MainApplication\obj\Debug\net6.0-windows\App.baml
