@@ -12,11 +12,29 @@
              Background="Bisque"
 
 >
-    <!--<UserControl.DataContext>
+    <UserControl.DataContext>
         <viewmodel:CharacterListViewModel />
-    </UserControl.DataContext>-->
+    </UserControl.DataContext>
     <Grid>
-        <DataGrid ItemsSource="{Binding Characters}">
+        <DataGrid   x:Name="allCharactersList"
+                    ItemsSource="{Binding Characters}"
+                    RowDetailsVisibilityMode="VisibleWhenSelected"
+                    AutoGenerateColumns="False"
+                    EnableColumnVirtualization="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="nameColumn"
+                                Binding="{Binding Name}"
+                                Header="Name"
+                                Width="3*" />
+                <DataGridTextColumn x:Name="genderColumn"
+                                Binding="{Binding Gender}"
+                                Header="Gender"
+                                Width="*" />
+                <DataGridTextColumn x:Name="wizardBoolColumn"
+                                Binding="{Binding Wizard}"
+                                Header="Wizard"
+                                Width="*" />
+            </DataGrid.Columns>
         </DataGrid>
     </Grid>
 </UserControl>
