@@ -12,6 +12,5 @@ namespace HarryPotter.MainApplication.Services
     {
         Task<ICollection<Character>> GetAllCharacters();
 
-        Task<Character> GetCharacterByName(string name);
     }
 }

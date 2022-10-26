@@ -4,23 +4,28 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HarryPotter.MainApplication"
-        xmlns:View="clr-namespace:HarryPotter.MainApplication.View" x:Class="HarryPotter.MainApplication.MainWindow"
+        xmlns:View="clr-namespace:HarryPotter.MainApplication.View"
+        xmlns:ViewModel="clr-namespace:HarryPotter.MainApplication.ViewModel"
+        xmlns:Model="clr-namespace:HarryPotter.Infrastructure.Model;assembly=HarryPotter.Infrastructure"
+        x:Class="HarryPotter.MainApplication.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="900" Width="1600"
         Background="LightBlue">
+    <Window.DataContext>
+        <ViewModel:MainWindowViewModel />
+    </Window.DataContext>
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type ViewModel:CharacterListViewModel}">
+            <View:CharacterListView />
+        </DataTemplate>
+    </Window.Resources>
     <Grid>
-        <View:CharacterListView
-            RenderTransformOrigin="0,0"
+        <ContentControl Content="{Binding CurrentViewModel}"
+             RenderTransformOrigin="0,0"
             Margin="50,140,50,0"
             Height="700"
             Width="600"
             VerticalAlignment="Top"
             HorizontalAlignment="Left" />
-        <View:CharacterDetailsView
-            HorizontalAlignment="Right"
-            VerticalAlignment="Top"
-            Margin="0,140,50,0"
-            Height="700"
-            Width="800" />
     </Grid>
 </Window>

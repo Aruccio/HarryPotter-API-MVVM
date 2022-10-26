@@ -8,6 +8,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace HarryPotter.MainApplication.ViewModel
 {
@@ -17,24 +18,66 @@ namespace HarryPotter.MainApplication.ViewModel
 
         public CharacterListViewModel()
         {
-            LoadCharacters();
+            AddToFavCommand = new RelayCommand(OnAdd, CanAdd);
+            DeleteCommand = new RelayCommand(OnDelete, CanDelete);
+            LoadAllCharacters();
+
         }
 
-        private ObservableCollection<Character> characters = new ObservableCollection<Character>();
-        public ObservableCollection<Character> Characters
+        public RelayCommand AddToFavCommand { get; private set; }
+        public RelayCommand DeleteCommand { get; private set; }
+
+        private ObservableCollection<Character> allCharacters = new ObservableCollection<Character>();
+        private Character selectedCharacter;
+        private ObservableCollection<Character> favouriteCharacters = new ObservableCollection<Character>();
+
+        public ObservableCollection<Character> AllCharacters
         {
-            get { return characters; }
-            set { characters = value; }
+            get { return allCharacters; }
+            set { allCharacters = value; }
         }
 
-        public async void LoadCharacters()
+        public ObservableCollection<Character> FavouriteCharacters
+        {
+            get { return favouriteCharacters; }
+            set { favouriteCharacters = value; }
+        }
+
+        public async void LoadAllCharacters()
         {
             var chars = await _repository.GetAllCharacters();
 
             foreach (var character in chars)
             {
-                characters.Add(character);
+                allCharacters.Add(character);
             }
         }
+
+        public Character SelectedCharacter
+        {
+            get => selectedCharacter;
+            set => selectedCharacter = value;
+        }
+
+        private void OnAdd()
+        {
+            FavouriteCharacters.Add(SelectedCharacter);
+        }
+
+        private void OnDelete()
+        {
+            AllCharacters.Remove(SelectedCharacter);
+        }
+
+        private bool CanAdd()
+        {
+            return true;
+        }
+
+        private bool CanDelete()
+        {
+            return true;
+        }
+
     }
 }

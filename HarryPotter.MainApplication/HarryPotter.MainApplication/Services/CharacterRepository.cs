@@ -32,13 +32,5 @@ namespace HarryPotter.MainApplication.Services
             return allCharactersJson;
         }
 
-        public async Task<Character> GetCharacterByName(string id)
-        {
-            var response = await _httpClient.GetAsync($"{_api}{_apiAllCharacters}/{id}");
-            string character = response.Content.ReadAsStringAsync().Result;
-            var characterJson = JsonConvert.DeserializeObject<Character>(character);
-
-            return characterJson;
-        }
     }
 }

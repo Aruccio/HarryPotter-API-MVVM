@@ -28,14 +28,42 @@
 
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <DataGrid   x:Name="allCharactersList"
-                    ItemsSource="{Binding Characters}"
-                    RowDetailsVisibilityMode="VisibleWhenSelected"
-                    AutoGenerateColumns="False"
-                    EnableColumnVirtualization="True">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button
+            Grid.Row="0"
+            Grid.Column="0"
+            Content="Add to favs"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="75"
+            Command="{Binding AddToFavCommand}" Height="20" />
+            <Button
+            Grid.Row="0"
+            Grid.Column="1"
+            Content="Delete"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="75"
+            Command="{Binding DeleteCommand}" Height="20" />
+        </Grid>
+
+        <DataGrid
+            Grid.Row="1"
+            x:Name="allCharactersList"
+            ItemsSource="{Binding AllCharacters}"
+            RowDetailsVisibilityMode="VisibleWhenSelected"
+            AutoGenerateColumns="False"
+            EnableColumnVirtualization="True"
+            Grid.RowSpan="3"
+            SelectedItem="{Binding SelectedCharacter}">
             <DataGrid.Columns>
                 <DataGridTextColumn x:Name="nameColumn"
                                 Binding="{Binding Name}"
@@ -51,8 +79,29 @@
                                 Width="*" />
             </DataGrid.Columns>
         </DataGrid>
-        <ListBox
-            ItemsSource="{Binding Characters}"
-            Grid.Row="1" />
+
+        <DataGrid
+            Grid.Row="2"
+            x:Name="favCharactersList"
+            ItemsSource="{Binding FavouriteCharacters}"
+            RowDetailsVisibilityMode="VisibleWhenSelected"
+            AutoGenerateColumns="False"
+            EnableColumnVirtualization="True"
+            Grid.RowSpan="3">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="nameColumnFav"
+                                Binding="{Binding Name}"
+                                Header="Name"
+                                Width="3*" />
+                <DataGridTextColumn x:Name="genderColumnFav"
+                                Binding="{Binding Gender}"
+                                Header="Gender"
+                                Width="*" />
+                <DataGridTextColumn x:Name="wizardBoolColumnFav"
+                                Binding="{Binding Wizard}"
+                                Header="Wizard"
+                                Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </UserControl>
