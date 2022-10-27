@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace HarryPotter.MainApplication.ViewModel
 {
     public class CharacterDetailsViewModel
     {
+        private RelayCommand backButtonCommand = new RelayCommand();
+
+        public ICommand BackButtonCommand() => backButtonCommand ?? new RelayCommand(() => goBackAction());
     }
 }
