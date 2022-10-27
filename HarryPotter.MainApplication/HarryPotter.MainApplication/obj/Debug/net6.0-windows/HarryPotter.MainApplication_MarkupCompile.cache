@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\QPERIOR\HarryPotter-API-MVVM\HarryPotter.MainApplication\HarryPotter.MainApplication\obj\Debug\net6.0-windows\
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.MainApplication\obj\Debug\net6.0-windows\
 HarryPotter.MainApplication
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\QPERIOR\HarryPotter-API-MVVM\HarryPotter.MainApplication\HarryPotter.MainApplication\App.xaml
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.MainApplication\App.xaml
 3-2113870051
 
 12-1578468617
-1971960641763
+197-238493507
 MainWindow.xaml;View\CharacterDetailsView.xaml;View\CharacterListView.xaml;
 
 False

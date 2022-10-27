@@ -56,7 +56,12 @@ namespace HarryPotter.MainApplication.ViewModel
         public Character SelectedCharacter
         {
             get => selectedCharacter;
-            set => selectedCharacter = value;
+            set 
+            { 
+                selectedCharacter = value;
+                DeleteCommand.RaiseCanExecuteChanged();
+                AddToFavCommand.RaiseCanExecuteChanged();
+            }
         }
 
         private void OnAdd()
@@ -71,12 +76,12 @@ namespace HarryPotter.MainApplication.ViewModel
 
         private bool CanAdd()
         {
-            return true;
+            return SelectedCharacter != null;
         }
 
         private bool CanDelete()
         {
-            return true;
+            return SelectedCharacter != null;
         }
 
     }

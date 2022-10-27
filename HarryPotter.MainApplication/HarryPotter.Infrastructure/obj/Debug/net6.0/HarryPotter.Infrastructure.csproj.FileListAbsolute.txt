@@ -10,3 +10,15 @@ D:\QPERIOR\HarryPotter-API-MVVM\HarryPotter.MainApplication\HarryPotter.Infrastr
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotter.MainApplication\HarryPotter.Infrastructure\obj\Debug\net6.0\refint\HarryPotter.Infrastructure.dll
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotter.MainApplication\HarryPotter.Infrastructure\obj\Debug\net6.0\HarryPotter.Infrastructure.pdb
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotter.MainApplication\HarryPotter.Infrastructure\obj\Debug\net6.0\ref\HarryPotter.Infrastructure.dll
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.Infrastructure\bin\Debug\net6.0\HarryPotter.Infrastructure.deps.json
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.Infrastructure\bin\Debug\net6.0\HarryPotter.Infrastructure.dll
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.Infrastructure\bin\Debug\net6.0\HarryPotter.Infrastructure.pdb
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.Infrastructure\obj\Debug\net6.0\HarryPotter.Infrastructure.csproj.AssemblyReference.cache
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.Infrastructure\obj\Debug\net6.0\HarryPotter.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.Infrastructure\obj\Debug\net6.0\HarryPotter.Infrastructure.AssemblyInfoInputs.cache
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.Infrastructure\obj\Debug\net6.0\HarryPotter.Infrastructure.AssemblyInfo.cs
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.Infrastructure\obj\Debug\net6.0\HarryPotter.Infrastructure.csproj.CoreCompileInputs.cache
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.Infrastructure\obj\Debug\net6.0\HarryPotter.Infrastructure.dll
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.Infrastructure\obj\Debug\net6.0\refint\HarryPotter.Infrastructure.dll
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.Infrastructure\obj\Debug\net6.0\HarryPotter.Infrastructure.pdb
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.Infrastructure\obj\Debug\net6.0\ref\HarryPotter.Infrastructure.dll

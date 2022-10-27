@@ -25,6 +25,12 @@
             </Border>
         </DataTemplate>
     </UserControl.Resources>
+    <UserControl.InputBindings>
+        <KeyBinding Key="D" Modifiers="Control"
+                    Command="{Binding DeleteCommand}"/>
+        <KeyBinding Key="F" Modifiers="Control"
+                    Command="{Binding AddToFavCommand}"/>
+    </UserControl.InputBindings>
 
     <Grid>
         <Grid.RowDefinitions>
