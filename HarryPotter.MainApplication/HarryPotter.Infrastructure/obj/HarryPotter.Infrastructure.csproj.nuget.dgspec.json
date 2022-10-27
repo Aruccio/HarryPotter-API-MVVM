@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj": {}
+    "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj": {
+    "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
+        "projectUniqueName": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
         "projectName": "HarryPotter.Infrastructure",
-        "projectPath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\arlen\\.nuget\\packages\\",
-        "outputPath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\obj\\",
+        "projectPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\awinnicka\\.nuget\\packages\\",
+        "outputPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\arlen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\awinnicka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +49,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

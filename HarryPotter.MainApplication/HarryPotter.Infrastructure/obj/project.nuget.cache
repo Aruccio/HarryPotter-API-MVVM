@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VUFBGUNeRP5vS57UqlKjAncO/EDjulcNdBBADucq06gUV995LEv9RkAbLbuh8+OiXEY2O0v6E6p/7HHCWVkCVA==",
+  "dgSpecHash": "m9Vib9M1GRDkicnCKnSbNTVd0m4W0kPY1qW4OCYHF2X1GOJguLSFbuA0c2dKJr34YAhHRPd3cGd9vvyD7YfvPg==",
   "success": true,
-  "projectFilePath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
+  "projectFilePath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ypSIZNI8rFkPEv0lKYVPqEXgB4ESISSMUeY6s/TLgDuqMtiSR8E4qdslykrpHZDNEzgjb503s4lw3GmKLTGhIQ==",
+  "dgSpecHash": "Ny4GMMg40PEWHrVx3RjsQ4vifC08vvrbM6wFUTx8ETFJ8y5uz4YvCDfLltkz0pXiyLmE2MHBkCzSXPWXlpbl7g==",
   "success": true,
-  "projectFilePath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
+  "projectFilePath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\arlen\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
-    "C:\\Users\\arlen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\arlen\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\awinnicka\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\awinnicka\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\awinnicka\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

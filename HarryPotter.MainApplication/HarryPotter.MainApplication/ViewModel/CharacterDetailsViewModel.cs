@@ -9,8 +9,6 @@ namespace HarryPotter.MainApplication.ViewModel
 {
     public class CharacterDetailsViewModel
     {
-        private RelayCommand backButtonCommand = new RelayCommand();
 
-        public ICommand BackButtonCommand() => backButtonCommand ?? new RelayCommand(() => goBackAction());
     }
 }
