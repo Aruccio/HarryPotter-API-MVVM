@@ -1,0 +1,116 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:root="clr-namespace:HarryPotter.MainApplication"
+             xmlns:viewmodel="clr-namespace:HarryPotter.MainApplication.ViewModel"
+             xmlns:models="clr-namespace:HarryPotter.Infrastructure.Model;assembly=HarryPotter.Infrastructure"
+             xmlns:b="http://schemas.microsoft.com/xaml/behaviors" x:Class="HarryPotter.MainApplication.View.CharacterListView"
+             root:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d"
+             d:DesignHeight="700" d:DesignWidth="1500"
+             Background="Bisque"
+    
+            root:MVVMBehaviors.LoadedMethodName="LoadAllCharacters"
+             >
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type models:Character}">
+            <Border BorderBrush="{StaticResource VioletBrush}"
+                    BorderThickness="3">
+                <StackPanel>
+                    <TextBlock Text="{Binding Name}" />
+                    <TextBlock Text="{Binding Gender}" />
+                    <TextBlock Text="{Binding Wizard}" />
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <viewmodel:CharacterListViewModel />
+    </UserControl.DataContext>
+    <UserControl.InputBindings>
+        <KeyBinding Key="D" Modifiers="Control"
+                    Command="{Binding DeleteCommand}"/>
+        <KeyBinding Key="F" Modifiers="Control"
+                    Command="{Binding AddToFavCommand}"/>
+    </UserControl.InputBindings>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button
+            Grid.Row="0"
+            Grid.Column="0"
+            Content="Add to favs"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="75"
+            Command="{Binding AddToFavCommand}" Height="20" />
+            <Button
+            Grid.Row="0"
+            Grid.Column="1"
+            Content="Delete"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="75"
+            Command="{Binding DeleteCommand}" Height="20" />
+        </Grid>
+
+        <DataGrid
+            Grid.Row="1"
+            x:Name="allCharactersList"
+            ItemsSource="{Binding AllCharacters}"
+            RowDetailsVisibilityMode="VisibleWhenSelected"
+            AutoGenerateColumns="False"
+            EnableColumnVirtualization="True"
+            Grid.RowSpan="3"
+            SelectedItem="{Binding SelectedCharacter}">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="nameColumn"
+                                Binding="{Binding Name}"
+                                Header="Name"
+                                Width="3*" />
+                <DataGridTextColumn x:Name="genderColumn"
+                                Binding="{Binding Gender}"
+                                Header="Gender"
+                                Width="*" />
+                <DataGridTextColumn x:Name="wizardBoolColumn"
+                                Binding="{Binding Wizard}"
+                                Header="Wizard"
+                                Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <DataGrid
+            Grid.Row="2"
+            x:Name="favCharactersList"
+            ItemsSource="{Binding FavouriteCharacters}"
+            RowDetailsVisibilityMode="VisibleWhenSelected"
+            AutoGenerateColumns="False"
+            EnableColumnVirtualization="True"
+            Grid.RowSpan="3">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="nameColumnFav"
+                                Binding="{Binding Name}"
+                                Header="Name"
+                                Width="3*" />
+                <DataGridTextColumn x:Name="genderColumnFav"
+                                Binding="{Binding Gender}"
+                                Header="Gender"
+                                Width="*" />
+                <DataGridTextColumn x:Name="wizardBoolColumnFav"
+                                Binding="{Binding Wizard}"
+                                Header="Wizard"
+                                Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
