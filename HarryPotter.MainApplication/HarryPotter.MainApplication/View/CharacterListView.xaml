@@ -1,18 +1,19 @@
-﻿<UserControl x:Class="HarryPotter.MainApplication.View.CharacterListView"
+﻿<UserControl
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:root="clr-namespace:HarryPotter.MainApplication"
-             root:ViewModelLocator.AutoWireViewModel="True"
              xmlns:viewmodel="clr-namespace:HarryPotter.MainApplication.ViewModel"
              xmlns:models="clr-namespace:HarryPotter.Infrastructure.Model;assembly=HarryPotter.Infrastructure"
+             xmlns:b="http://schemas.microsoft.com/xaml/behaviors" x:Class="HarryPotter.MainApplication.View.CharacterListView"
+             root:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d"
              d:DesignHeight="700" d:DesignWidth="1500"
-             Background="Bisque">
-    <UserControl.DataContext>
-        <viewmodel:CharacterListViewModel />
-    </UserControl.DataContext>
+             Background="Bisque"
+    
+            root:MVVMBehaviors.LoadedMethodName="LoadAllCharacters"
+             >
     <UserControl.Resources>
         <DataTemplate DataType="{x:Type models:Character}">
             <Border BorderBrush="{StaticResource VioletBrush}"
@@ -25,13 +26,15 @@
             </Border>
         </DataTemplate>
     </UserControl.Resources>
+    <UserControl.DataContext>
+        <viewmodel:CharacterListViewModel />
+    </UserControl.DataContext>
     <UserControl.InputBindings>
         <KeyBinding Key="D" Modifiers="Control"
                     Command="{Binding DeleteCommand}"/>
         <KeyBinding Key="F" Modifiers="Control"
                     Command="{Binding AddToFavCommand}"/>
     </UserControl.InputBindings>
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />

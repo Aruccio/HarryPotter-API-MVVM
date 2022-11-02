@@ -20,7 +20,6 @@ namespace HarryPotter.MainApplication.ViewModel
         {
             AddToFavCommand = new RelayCommand(OnAdd, CanAdd);
             DeleteCommand = new RelayCommand(OnDelete, CanDelete);
-            LoadAllCharacters();
 
         }
 
