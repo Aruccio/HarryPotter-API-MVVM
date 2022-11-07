@@ -12,34 +12,44 @@ using System.Windows.Input;
 
 namespace HarryPotter.MainApplication.ViewModel
 {
-    public class CharacterListViewModel
+    public class CharacterListViewModel : INotifyPropertyChanged
     {
         private ICharacterRepository _repository = new CharacterRepository();
+        public RelayCommand AddToFavCommand { get; private set; }
+        public RelayCommand DeleteCommand { get; private set; }
+
+        private ObservableCollection<Character> _allCharacters = new ObservableCollection<Character>();
+        private Character _selectedCharacter;
+        private ObservableCollection<Character> _favouriteCharacters = new ObservableCollection<Character>();
+
+        public event PropertyChangedEventHandler? PropertyChanged = delegate { };
 
         public CharacterListViewModel()
         {
             AddToFavCommand = new RelayCommand(OnAdd, CanAdd);
             DeleteCommand = new RelayCommand(OnDelete, CanDelete);
-            LoadAllCharacters();
+            //LoadAllCharacters();
         }
 
-        public RelayCommand AddToFavCommand { get; private set; }
-        public RelayCommand DeleteCommand { get; private set; }
 
-        private ObservableCollection<Character> allCharacters = new ObservableCollection<Character>();
-        private Character selectedCharacter;
-        private ObservableCollection<Character> favouriteCharacters = new ObservableCollection<Character>();
 
         public ObservableCollection<Character> AllCharacters
         {
-            get { return allCharacters; }
-            set { allCharacters = value; }
+            get { return _allCharacters; }
+            set
+            {
+                _allCharacters = value;
+                if (_allCharacters != value)
+                {
+                    PropertyChanged(this, new PropertyChangedEventArgs("AllCharacters"));
+                }
+            }
         }
 
         public ObservableCollection<Character> FavouriteCharacters
         {
-            get { return favouriteCharacters; }
-            set { favouriteCharacters = value; }
+            get { return _favouriteCharacters; }
+            set { _favouriteCharacters = value; }
         }
 
         public async void LoadAllCharacters()
@@ -48,18 +58,23 @@ namespace HarryPotter.MainApplication.ViewModel
 
             foreach (var character in chars)
             {
-                allCharacters.Add(character);
+                _allCharacters.Add(character);
             }
         }
 
         public Character SelectedCharacter
         {
-            get => selectedCharacter;
+            get => _selectedCharacter;
             set 
-            { 
-                selectedCharacter = value;
-                DeleteCommand.RaiseCanExecuteChanged();
-                AddToFavCommand.RaiseCanExecuteChanged();
+            {
+                _selectedCharacter = value;
+                if (_selectedCharacter!=null)
+                {
+                    DeleteCommand.RaiseCanExecuteChanged();
+                    AddToFavCommand.RaiseCanExecuteChanged();
+                    PropertyChanged(this, new PropertyChangedEventArgs("SelectedCharacter"));
+
+                }
             }
         }
 

@@ -1,7 +1,9 @@
-﻿using HarryPotter.MainApplication.ViewModel;
+﻿using HarryPotter.Infrastructure.Model;
+using HarryPotter.MainApplication.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.ObjectiveC;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -24,7 +26,16 @@ namespace HarryPotter.MainApplication.View
         public CharacterListView()
         {
             InitializeComponent();
-            //DataContext = new CharacterListViewModel();
+        }
+
+        private void OnChangeCharacter(object sender, RoutedEventArgs e)
+        {
+            var character = allCharactersList.SelectedItem as Character;
+            if(character != null)
+            {
+
+                character.Gender = "Unknown";
+            }
         }
     }
 }

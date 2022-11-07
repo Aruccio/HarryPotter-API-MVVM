@@ -62,3 +62,4 @@ C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.MainAppli
 C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.MainApplication\obj\Debug\net6.0-windows\HarryPotter.MainApplication.pdb
 C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.MainApplication\obj\Debug\net6.0-windows\HarryPotter.MainApplication.genruntimeconfig.cache
 C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.MainApplication\obj\Debug\net6.0-windows\ref\HarryPotter.MainApplication.dll
+C:\ALICJA\Projekty\HarryPotter\HarryPotter.MainApplication\HarryPotter.MainApplication\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll

@@ -17,7 +17,7 @@ namespace HarryPotter.MainApplication
             return (int)obj.GetValue(LoadedMethodNameProperty);
         }
 
-        public static void SetLoadedMethodName(DependencyObject obj, int value)
+        public static void SetLoadedMethodName(DependencyObject obj, string value)
         {
             obj.SetValue(LoadedMethodNameProperty, value);
         }

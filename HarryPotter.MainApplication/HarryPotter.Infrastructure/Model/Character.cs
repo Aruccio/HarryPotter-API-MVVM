@@ -1,20 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace HarryPotter.Infrastructure.Model
 {
-    public class Character
+    public class Character :INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler? PropertyChanged = delegate { };
+
         private string? name;
         private string? gender;
+
 
         public int Id { get; set; }
         public string? Name { get => name; set => name = value; }
         public string? Species { get; set; }
-        public string? Gender { get => gender; set => gender = value; }
+        public string? Gender
+        {
+            get => gender;
+            set
+            {
+                gender = value;
+                if (gender != null)
+                {
+                    PropertyChanged(this, new PropertyChangedEventArgs("Gender"));
+                }
+            }
+        }
         public string? House { get; set; }
         public string? DateOfBirth { get; set; }
         public int? YearOfBirth { get; set; }
@@ -30,5 +45,6 @@ namespace HarryPotter.Infrastructure.Model
         public bool? Alive { get; set; }
 
         public string? Image { get; set; }
+
     }
 }
