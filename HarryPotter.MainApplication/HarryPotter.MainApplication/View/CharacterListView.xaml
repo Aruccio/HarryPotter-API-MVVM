@@ -11,9 +11,8 @@
              mc:Ignorable="d"
              d:DesignHeight="700" d:DesignWidth="1500"
              Background="Bisque"
-    
             root:MVVMBehaviors.LoadedMethodName="LoadAllCharacters"
-             >
+    >
     <UserControl.Resources>
         <DataTemplate DataType="{x:Type models:Character}">
             <Border BorderBrush="{StaticResource VioletBrush}"

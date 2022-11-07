@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ny4GMMg40PEWHrVx3RjsQ4vifC08vvrbM6wFUTx8ETFJ8y5uz4YvCDfLltkz0pXiyLmE2MHBkCzSXPWXlpbl7g==",
+  "dgSpecHash": "OktSCQ239YKMXhujQb6+BfbeT7Oqm1xx4kAgMi97/L3sC1i/Ozpqg1ZIh2cz/5AISML1F+k4QrIRZUJVxwlt6w==",
   "success": true,
-  "projectFilePath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
+  "projectFilePath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\awinnicka\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\awinnicka\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

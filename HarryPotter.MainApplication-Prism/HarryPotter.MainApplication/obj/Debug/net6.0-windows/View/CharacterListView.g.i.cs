@@ -119,7 +119,7 @@ namespace HarryPotter.MainApplication.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HarryPotter.MainApplication;component/view/characterlistview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HarryPotter.MainApplication;V1.0.0.0;component/view/characterlistview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\CharacterListView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

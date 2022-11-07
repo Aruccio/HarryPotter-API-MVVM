@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj": {}
+    "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj": {}
   },
   "projects": {
-    "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj": {
+    "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
+        "projectUniqueName": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
         "projectName": "HarryPotter.Infrastructure",
-        "projectPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
+        "projectPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\awinnicka\\.nuget\\packages\\",
-        "outputPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\obj\\",
+        "outputPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj": {
+    "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
+        "projectUniqueName": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
         "projectName": "HarryPotter.MainApplication",
-        "projectPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
+        "projectPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
         "packagesPath": "C:\\Users\\awinnicka\\.nuget\\packages\\",
-        "outputPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\obj\\",
+        "outputPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.MainApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,8 +91,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj": {
-                "projectPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj"
+              "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj": {
+                "projectPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj"
               }
             }
           }

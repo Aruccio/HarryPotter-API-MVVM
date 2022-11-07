@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m9Vib9M1GRDkicnCKnSbNTVd0m4W0kPY1qW4OCYHF2X1GOJguLSFbuA0c2dKJr34YAhHRPd3cGd9vvyD7YfvPg==",
+  "dgSpecHash": "44NlPLoVRxFT8GLpsbTx+GoIt+9JZo2zaaRAQMK3ihCeFHmgjCx8w7oeEm/w/qnRRb5Ihqy2YsJgJhoOnL2jvw==",
   "success": true,
-  "projectFilePath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
+  "projectFilePath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication-Prism\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
