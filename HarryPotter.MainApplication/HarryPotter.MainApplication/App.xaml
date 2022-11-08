@@ -5,5 +5,15 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <SolidColorBrush x:Key="VioletBrush" Color="DarkOrchid" />
+        <SolidColorBrush x:Key="GreenBrush" Color="Green"/>
+        <SolidColorBrush x:Key="LightGreenBrush" Color="LightGreen"/>
+
+        <Style TargetType="Button">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="LightGreen" />
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>

@@ -28,14 +28,14 @@ namespace HarryPotter.MainApplication.View
             InitializeComponent();
         }
 
-        private void OnChangeCharacter(object sender, RoutedEventArgs e)
-        {
-            var character = allCharactersList.SelectedItem as Character;
-            if(character != null)
-            {
+        //private void OnChangeCharacter(object sender, RoutedEventArgs e)
+        //{
+        //    var character = allCharactersList.SelectedItem as Character;
+        //    if(character != null)
+        //    {
 
-                character.Gender = "Unknown";
-            }
-        }
+        //        character.Gender = "Unknown";
+        //    }
+        //}
     }
 }
