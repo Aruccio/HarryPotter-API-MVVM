@@ -24,3 +24,4 @@ D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\HarryPotterPrism\obj\Debug\net6
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\HarryPotterPrism\obj\Debug\net6.0-windows\HarryPotterPrism.pdb
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\HarryPotterPrism\obj\Debug\net6.0-windows\HarryPotterPrism.genruntimeconfig.cache
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\HarryPotterPrism\obj\Debug\net6.0-windows\ref\HarryPotterPrism.dll
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\HarryPotterPrism\bin\Debug\net6.0-windows\HarryPotterPrism.dll.config

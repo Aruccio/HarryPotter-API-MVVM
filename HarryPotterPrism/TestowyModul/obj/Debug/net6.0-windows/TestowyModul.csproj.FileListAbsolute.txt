@@ -1,0 +1,12 @@
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\bin\Debug\net6.0-windows\TestowyModul.deps.json
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\bin\Debug\net6.0-windows\TestowyModul.dll
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\bin\Debug\net6.0-windows\TestowyModul.pdb
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\TestowyModul.csproj.AssemblyReference.cache
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\TestowyModul.GeneratedMSBuildEditorConfig.editorconfig
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\TestowyModul.AssemblyInfoInputs.cache
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\TestowyModul.AssemblyInfo.cs
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\TestowyModul.csproj.CoreCompileInputs.cache
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\TestowyModul.dll
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\refint\TestowyModul.dll
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\TestowyModul.pdb
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\ref\TestowyModul.dll

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2yO61wsGX4p0T/zaLneLRxZ6zFA5+ktlNmUpVtO8Ty0l4OLlmVIOZ9R0bw5G/iflO+Ed9SHiS1jeKJBLVaaZeg==",
+  "success": true,
+  "projectFilePath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotterPrism\\TestowyModul\\TestowyModul.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arlen\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\arlen\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\arlen\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512"
+  ],
+  "logs": []
+}
