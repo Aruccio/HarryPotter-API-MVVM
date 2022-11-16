@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj": {}
+    "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj": {}
   },
   "projects": {
-    "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj": {
+    "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
+        "projectUniqueName": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
         "projectName": "HarryPotter.Infrastructure",
-        "projectPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\awinnicka\\.nuget\\packages\\",
-        "outputPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\obj\\",
+        "projectPath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\arlen\\.nuget\\packages\\",
+        "outputPath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\awinnicka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\arlen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,29 +54,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj": {
+    "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
+        "projectUniqueName": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
         "projectName": "HarryPotter.MainApplication",
-        "projectPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
-        "packagesPath": "C:\\Users\\awinnicka\\.nuget\\packages\\",
-        "outputPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\obj\\",
+        "projectPath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
+        "packagesPath": "C:\\Users\\arlen\\.nuget\\packages\\",
+        "outputPath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\awinnicka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\arlen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -91,8 +82,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj": {
-                "projectPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj"
+              "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj": {
+                "projectPath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj"
               }
             }
           }
@@ -126,8 +117,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -139,7 +129,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

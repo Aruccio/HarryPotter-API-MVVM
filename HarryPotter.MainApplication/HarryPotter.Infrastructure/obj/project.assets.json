@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\awinnicka\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\arlen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
+      "projectUniqueName": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
       "projectName": "HarryPotter.Infrastructure",
-      "projectPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\awinnicka\\.nuget\\packages\\",
-      "outputPath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\obj\\",
+      "projectPath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\HarryPotter.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\arlen\\.nuget\\packages\\",
+      "outputPath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\awinnicka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\arlen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -56,8 +51,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -66,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

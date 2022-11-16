@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-1-1756707268
+2-1533476177
 
-41670771708
+51745294552
 198-1179802482
-Views\TestowyWidok.xaml;
+Style.xaml;Views\TestowyWidok.xaml;
 
-False
+True
 

@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+xmnJniE4xNuNKzwvTqyGzxYXXruRtCTG4hTRgltNRKR9RdUME2DFGQe+PEn0/fE7i5ov7dAwE3ieDej8OYT9A==",
+  "dgSpecHash": "yetYd+2crJ1b64KJfpKSiOut9sZC8Um39vc/eK/HCZFuWHkLZeKMoRqYNOy6eHchHwfdCDEno3wLnET/oyIZrw==",
   "success": true,
-  "projectFilePath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
+  "projectFilePath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotter.MainApplication\\HarryPotter.MainApplication\\HarryPotter.MainApplication.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\awinnicka\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
-    "C:\\Users\\awinnicka\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\awinnicka\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
-    "C:\\Users\\awinnicka\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\arlen\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\arlen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\arlen\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\arlen\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

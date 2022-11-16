@@ -30,3 +30,6 @@ D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\HarryPotterPrism\bin\Debug\net6
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\HarryPotterPrism\bin\Debug\net6.0-windows\System.Drawing.Common.dll
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\HarryPotterPrism\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\HarryPotterPrism\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\HarryPotterPrism\obj\Debug\net6.0-windows\Views\TitleBar.g.cs
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\HarryPotterPrism\obj\Debug\net6.0-windows\HarryPotterPrism_MarkupCompile.lref
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\HarryPotterPrism\obj\Debug\net6.0-windows\Views\TitleBar.baml
