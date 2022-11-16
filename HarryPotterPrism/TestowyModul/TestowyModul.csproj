@@ -7,16 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\" />
-    <Folder Include="ViewModels\" />
+    <PackageReference Include="Prism.Core" Version="8.1.97" />
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="xcopy &quot;$(TargetDir)*.*&quot; &quot;$(SolutionDir)\$(SolutionName)\bin\Debug\net6.0-windows\&quot; /Y" />
-  </Target>
 
 </Project>

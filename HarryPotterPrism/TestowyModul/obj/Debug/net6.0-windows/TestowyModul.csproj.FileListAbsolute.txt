@@ -10,3 +10,8 @@ D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-w
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\refint\TestowyModul.dll
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\TestowyModul.pdb
 D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\ref\TestowyModul.dll
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\Views\TestowyWidok.g.cs
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\TestowyModul_MarkupCompile.cache
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\TestowyModul_MarkupCompile.lref
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\Views\TestowyWidok.baml
+D:\QPERIOR\HarryPotter-API-MVVM\HarryPotterPrism\TestowyModul\obj\Debug\net6.0-windows\TestowyModul.g.resources

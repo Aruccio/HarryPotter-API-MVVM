@@ -1,9 +1,8 @@
-﻿using HarryPotterPrism.Core.Regions;
-using HarryPotterPrism.Views;
+﻿using HarryPotterPrism.Views;
 using Prism.Ioc;
-using Prism.Regions;
+using Prism.Modularity;
 using System.Windows;
-using System.Windows.Controls;
+using TestowyModul;
 
 namespace HarryPotterPrism
 {
@@ -21,11 +20,9 @@ namespace HarryPotterPrism
         {
         }
 
-        protected override void ConfigureRegionAdapterMappings(RegionAdapterMappings regionAdapterMappings)
+        protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
-            base.ConfigureRegionAdapterMappings(regionAdapterMappings);
-            regionAdapterMappings.RegisterMapping(typeof(StackPanel),
-                Container.Resolve<StackPanelRegionAdapter>());
+            moduleCatalog.AddModule<TestowyModulModule>();
         }
     }
 }
