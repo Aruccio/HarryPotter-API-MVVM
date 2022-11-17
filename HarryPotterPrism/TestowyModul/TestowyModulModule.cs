@@ -31,25 +31,12 @@ namespace TestowyModul
             var view1 = containerProvider.Resolve<TestowyWidok>();
             region.Add(view1);
 
-            //var view2 = containerProvider.Resolve<TestowyWidok>();
-
-            //view2.Content = new TextBox()
-            //{
-            //    Text = "Hello world from View2",
-            //    HorizontalAlignment = HorizontalAlignment.Center,
-            //    VerticalAlignment = VerticalAlignment.Center,
-            //    Padding = new Thickness(3),
-            //    FontSize = 32
-            //};
-
-            //region.Deactivate(view1);
-            //region.Add(view2);
-            //region.Activate(view2);
 
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterForNavigation<TestowyWidok>();
         }
     }
 }

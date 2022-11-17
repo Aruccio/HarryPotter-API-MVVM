@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "IPMyWznuf8Bp8rzcB44z/8ookWHZ6fWR76cRYp3NwIgC+1CVs7L52Xlm6x9KlxFZ6N3xupwQmqjpSl1av4bW8Q==",
+  "dgSpecHash": "QLgoGEDg/kSS9fwgbL8Ci6Fbo6jmmCFNl1kJEU/YsDkAi1hNHJw6GZo7qmXb3/yvd4UYeiOfHRfGsyqysCS29A==",
   "success": true,
-  "projectFilePath": "D:\\QPERIOR\\HarryPotter-API-MVVM\\HarryPotterPrism\\TestowyModul\\TestowyModul.csproj",
+  "projectFilePath": "C:\\ALICJA\\Projekty\\HarryPotter\\HarryPotterPrism\\TestowyModul\\TestowyModul.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\arlen\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
-    "C:\\Users\\arlen\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
-    "C:\\Users\\arlen\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
-    "C:\\Users\\arlen\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512",
-    "C:\\Users\\arlen\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+    "C:\\Users\\awinnicka\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\awinnicka\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\awinnicka\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\awinnicka\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512",
+    "C:\\Users\\awinnicka\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

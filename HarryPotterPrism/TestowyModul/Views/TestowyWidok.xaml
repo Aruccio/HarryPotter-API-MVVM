@@ -9,7 +9,12 @@
              Background="MidnightBlue"
              xmlns:prism="http://prismlibrary.com/"
              prism:ViewModelLocator.AutoWireViewModel="True">
+    <UserControl.Resources>
+                <ResourceDictionary 
+                Source="/HarryPotterPrism;component/Styles.xaml"/>
+    </UserControl.Resources>
     <Grid>
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />

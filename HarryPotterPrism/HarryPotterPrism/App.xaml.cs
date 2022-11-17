@@ -1,4 +1,5 @@
 ﻿using HarryPotterPrism.Views;
+using ModuleB;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
@@ -35,6 +36,7 @@ namespace HarryPotterPrism
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
             moduleCatalog.AddModule<TestowyModulModule>();
+            moduleCatalog.AddModule<ModuleBModule>();
         }
     }
 }

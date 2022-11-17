@@ -1,0 +1,17 @@
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\bin\Debug\net6.0-windows\ModuleB.deps.json
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\bin\Debug\net6.0-windows\ModuleB.dll
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\bin\Debug\net6.0-windows\ModuleB.pdb
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\ModuleB.csproj.AssemblyReference.cache
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\Views\ViewA.g.cs
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\ModuleB_MarkupCompile.cache
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\ModuleB_MarkupCompile.lref
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\Views\ViewA.baml
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\ModuleB.g.resources
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\ModuleB.GeneratedMSBuildEditorConfig.editorconfig
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\ModuleB.AssemblyInfoInputs.cache
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\ModuleB.AssemblyInfo.cs
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\ModuleB.csproj.CoreCompileInputs.cache
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\ModuleB.dll
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\refint\ModuleB.dll
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\ModuleB.pdb
+C:\ALICJA\Projekty\HarryPotter\HarryPotterPrism\ModuleB\obj\Debug\net6.0-windows\ref\ModuleB.dll

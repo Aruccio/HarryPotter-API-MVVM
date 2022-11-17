@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarryPotterPrism", "HarryPotterPrism\HarryPotterPrism.csproj", "{993D5A95-98EC-48AE-B330-3E895C75A4E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HarryPotterPrism", "HarryPotterPrism\HarryPotterPrism.csproj", "{993D5A95-98EC-48AE-B330-3E895C75A4E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestowyModul", "TestowyModul\TestowyModul.csproj", "{8380D6B8-237A-4D9A-8E5E-2302BC1E851F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestowyModul", "TestowyModul\TestowyModul.csproj", "{8380D6B8-237A-4D9A-8E5E-2302BC1E851F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleB", "ModuleB\ModuleB.csproj", "{07C5EE9F-1660-489B-9C86-0175E7180690}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8380D6B8-237A-4D9A-8E5E-2302BC1E851F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8380D6B8-237A-4D9A-8E5E-2302BC1E851F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8380D6B8-237A-4D9A-8E5E-2302BC1E851F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C5EE9F-1660-489B-9C86-0175E7180690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C5EE9F-1660-489B-9C86-0175E7180690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C5EE9F-1660-489B-9C86-0175E7180690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C5EE9F-1660-489B-9C86-0175E7180690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
